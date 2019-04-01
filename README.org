@@ -4851,3 +4851,19 @@ rmvirtualenv env_name
 * TODO Use virtualenv to install Python3                           :noexport:
 * TODO Format json output                                          :noexport:
 cat output.json|python -m json.tool
+* #  --8<-------------------------- separator ------------------------>8-- :noexport:
+* HALF ubuntu 16.04 install python 3.7                             :noexport:
+https://websiteforstudents.com/installing-the-latest-python-3-7-on-ubuntu-16-04-18-04/
+
+#+BEGIN_EXAMPLE
+sudo apt update
+sudo apt install software-properties-common
+After that run the commands to add the PPA..
+
+sudo add-apt-repository ppa:deadsnakes/ppa
+
+Finally, run the commands below to install Python 3.7
+
+sudo apt update
+sudo apt install python3.7
+#+END_EXAMPLE
